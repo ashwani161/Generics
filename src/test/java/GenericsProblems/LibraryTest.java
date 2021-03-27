@@ -4,6 +4,9 @@
 package GenericsProblems;
 
 import org.junit.Test;
+
+import com.GenericsProblems.Library;
+
 import static org.junit.Assert.*;
 
 public class LibraryTest {
