@@ -20,4 +20,12 @@ public class FindMaxFloatTest {
 
 	}
 	
+	@Test
+	public void giventhreefloats_WhenShouldReturnMaxAt3rdPosition() {
+		float i = 3.2f, j = 4.5f , k = 7.3f;
+		FindMaxFloat FindMax = new FindMaxFloat();
+	Assert.assertTrue("Verifying maximum value", k==FindMax.findMax(i, j, k));
+
+	}
+	
 }
