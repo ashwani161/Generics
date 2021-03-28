@@ -18,5 +18,13 @@ public class FindMaxStringTest {
 		Assert.assertEquals(b, FindMax.findMax(a, b, c));
 
 	}
+	
+	@Test
+	public void giventhreeStrings_WhenNull_ShouldReturnMaxAt3rdndPosition() {
+		String a = "Peach", b = "Apple", c = "Banana";
+		FindMaxString FindMax = new FindMaxString();
+		Assert.assertEquals(c, FindMax.findMax(a, b, c));
+
+	}
 
 }
